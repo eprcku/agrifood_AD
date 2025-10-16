@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 # === Load data ===
 df = pd.read_csv("population_practice.csv")
@@ -31,3 +30,4 @@ pred_df = pd.DataFrame(rows)
 pred_df.to_csv("predicted_population.csv", index=False)
 
 print("\nPredictions saved to predicted_population.csv")
+
